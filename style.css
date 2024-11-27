@@ -119,13 +119,13 @@ body {
     }
 }
 
-.brown {
+    .brown {
     background: linear-gradient(145deg, #633a19, #c4682f);
-}
+    }
 
-.blue {
+    .blue {
     background: linear-gradient(145deg, #348ff7, #075a7b);
-}
+    }
 
 @media (max-width: 600px) {
     .phone-container {
