@@ -1,4 +1,4 @@
-     This is the screen shot section of this phone charging page 
+This is a screen shot section of this phone charging page 
 
 Under the battery percentage is 20% it shows brown color
 ![Screenshot 2024-11-13 223940](https://github.com/user-attachments/assets/1b100db0-2a31-44d0-b458-a4598d00cfe6)
