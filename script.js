@@ -8,7 +8,6 @@ let chargingInterval;
 
 function createBubbles() {
     const smallBubblesContainer = document.querySelector('.small-bubbles');
-    
     for (let i = 0; i < 10; i++) { 
         const smallBubble = document.createElement('div');
         smallBubble.classList.add('small-bubble');
@@ -21,7 +20,6 @@ function createBubbles() {
 
 function updateChargingAnimation() {
     percentageDisplay.innerText = `${batteryPercentage.toFixed(2)}%`; 
-
     if (batteryPercentage < 20) {
         bubble.classList.remove('blue');
         bubble.classList.add('brown');
@@ -61,5 +59,4 @@ chargeButton.addEventListener('click', () => {
     createBubbles(); 
     chargingInterval = setInterval(updateChargingAnimation, 1000); 
 });
-
 phoneContainer.style.display = 'none';
